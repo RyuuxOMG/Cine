@@ -16,7 +16,7 @@ public class Pelicula {
         return nombre;
     }
 
-    // Metodo para obtener el costo base de la pelicula
+    // Metodo para obtener el costo base de la pelicula.
     public int getCostoBase() {
         return costoBase;
     }
