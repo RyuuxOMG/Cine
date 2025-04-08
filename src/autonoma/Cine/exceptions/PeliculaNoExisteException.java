@@ -5,6 +5,6 @@ public class PeliculaNoExisteException extends Exception {
 
     // Constructor que recibe un mensaje personalizado
     public PeliculaNoExisteException(String mensaje) {
-        super(mensaje);
+        super("La pelicula ingresada no existe en cartelera.");
     }
 }
